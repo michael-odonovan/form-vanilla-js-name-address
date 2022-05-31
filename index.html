@@ -5,35 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="styles.css" rel="stylesheet">
-    <script src="myScripts.js"></script>
   </head>
   <body>
     <form class="form-wrapper" onsubmit="myFunction()">
       <div class="field-wrapper">
         <label for="firstName">first-name:</label>
-        <input type="text">
+        <input type="text" id="firstName">
       </div>
       <div class="field-wrapper">
         <label for="lastName">last-name:</label>
-        <input type="text">
+        <input type="text" id="secondName">
       </div>
       <div class="field-wrapper">
         <label for="addressFirstLine">address first line:</label>
-        <input type="text">
+        <input type="text" id="addressFirstLine">
       </div>
       <div class="field-wrapper">
         <label for="addressSecondLine">address second line:</label>
-        <input type="text">
+        <input type="text" id="addressSecondLine">
       </div>
       <div class="field-wrapper">
         <label for="country">country:</label>
-        <input type="country">
+        <input type="country" id="country">
       </div>
       <div class="field-wrapper">
         <label for="postcode">postcode:</label>
-        <input type="text">
+        <input type="text" id="postcode">
       </div>
-      <input type="submit" value="Submit" class="submit-button">
+      <input type="submit" value="Submit" class="submit-button" id="submitButton">
+      <script src="myScripts.js"></script>
     </form>
   </body>
 </html>
