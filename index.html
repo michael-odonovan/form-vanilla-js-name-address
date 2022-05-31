@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="styles.css" rel="stylesheet">
+    <script src="myScripts.js"></script>
   </head>
   <body>
-    <div class="form-wrapper">
+    <form class="form-wrapper" onsubmit="myFunction()">
       <div class="field-wrapper">
         <label for="firstName">first-name:</label>
         <input type="text">
@@ -32,8 +33,8 @@
         <label for="postcode">postcode:</label>
         <input type="text">
       </div>
-    </div>
-    <script src="myScripts.js"></script>
+      <input type="submit" value="Submit" class="submit-button">
+    </form>
   </body>
 </html>
 

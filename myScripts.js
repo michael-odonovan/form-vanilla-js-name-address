@@ -1,1 +1,4 @@
-console.log("hello myScripts")
+
+function myFunction() {
+  console.log("hello myFunction")
+}

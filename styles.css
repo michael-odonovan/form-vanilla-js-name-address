@@ -19,3 +19,13 @@ html {
   display: grid;
 }
 
+.submit-button {
+  width: 80px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  background: green;
+  border: none;
+  border-radius: 3px;
+  color: white;
+}
